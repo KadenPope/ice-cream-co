@@ -1,0 +1,137 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+ @KadenSmile 
+@michaelwhyte michaelwhyte/.gitignore
+Created 3 years ago • 
+3
+1
+ Code  Revisions 1  Stars 3  Forks 1
+ 
+<script src="https://gist.github.com/michaelwhyte/341f3c841e6bb613f5d0974256d6b615.js"></script>
+  
+Starter Git ignore file for basic web development...
+ .gitignore
+# OS generated files #
+######################
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# Saas cache #
+##############
+
+.sass-cache
+
+
+# Sublime Text 2 or 3 specific files #
+#################################
+
+*.sublime-project
+*.sublime-workspace
+
+
+# Other text editor folders or files #
+######################################
+
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
+
+
+# Ignore Node Modules #
+#######################
+
+node_modules/
+
+
+# Folders to Ignore #
+#####################
+
+.tmp/
+
+# Ignore compiled CSS from repository
+
+styles/
+styles/*.css
+styles/*.map
+
+
+# Misc files to ignore #
+########################
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+ @KadenSmile
+ 
+   
+ 
+Leave a comment
+
+Attach files by dragging & dropping, selecting or pasting them.
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
