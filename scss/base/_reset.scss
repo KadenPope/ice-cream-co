@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Archivo Narrow', sans-serif;
+    display: block;
+}
