@@ -10,21 +10,30 @@
 <body id="top">
     <div class="wrapper">
         <header>
-            <div class="inner-header">
+            <div class="inner-header" id = "inner-header">
                 <nav>
-                    <a href="index.html"><img src="images/logo.png" alt="Ice Cream Co. Logo"></a>
-                    <ul>
-                        <li><a href="about.html">Our Story</a></li>
-                        <li><a href="flavours.html">Flavours</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="swag.html">Merchandise</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                    <div class="logo">
+                        <div class="nav-bkg">
+                            <a href="index.html"><img src="images/logo.png" alt="Ice Cream Co. Logo"></a>
+                        </div>
+                    </div>
+                    <div class="nav-bkg">
+                        <h1>
+                            Our Story
+                        </h1>
+                        <button id="nav-button">☰</button>
+                        <ul>
+                            <li><a href="about.html">Our Story</a></li>
+                            <li><a href="flavours.html">Flavours</a></li>
+                            <li><a href="locations.html">Locations</a></li>
+                            <li><a href="swag.html">Merchandise</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div> <!--end of inner-header nav-->
         </header>
         <main>
-            <h1>Our Story</h1>
             <div class="timeline-horizontal">
                 <div class="box-1"></div>
                 <div class="box-2"></div>
@@ -95,5 +104,7 @@
             </div>
         </footer>
     </div> <!--end of wrapper-->
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/navbar.js"></script>
 </body>
 </html>
