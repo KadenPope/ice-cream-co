@@ -57,6 +57,7 @@ nav ul:last-child {
 header h1 {
     visibility: hidden;
     color: $darkText;
+    display: block;
     line-height: 70px;
     padding-left: 10vw;
 }
@@ -69,22 +70,27 @@ main {
     padding-top: 250px;
 }
 
-
 // --------------------------- Responsive NAV 1050px --------------------------//
 @media only screen and (max-width: 1200px) {
 
-.inner-header ul {
-    flex-direction: column;
-}
+    .inner-header ul {
+        flex-direction: column;
+        display: flex;
+    }
 
-.inner-headerli {
-    display: block;
-}
+    .nav-wrapper {
+        display: flex;
+    }
 
+    header h1 {
+        visibility: visible;
+    }
 
-header h1 {
-    visibility: visible;
-}
+    .inner-header li {
+        background-color: $lightText;
+        max-width: 240px;
+        display: block;
+    }
 
     #nav-button {
         display: block;
@@ -96,8 +102,3 @@ header h1 {
         outline: none;
     }
 }
-
-.nav-bkg button, .nav-bkg ul {
-    align-items: right;
-}
-
