@@ -1,0 +1,244 @@
+// Timeline - Mobile
+
+
+
+.v-box-1,
+.v-box-2,
+.v-box-3,
+.v-box-4,
+.v-box-5,
+.v-box-6,
+.v-box-7,
+.v-box-8,
+.v-box-9,
+.v-box-10,
+.v-box-11,
+.v-box-12,
+.v-box-13,
+.v-box-14,
+.v-box-15,
+.v-box-16,
+.v-box-17,
+.v-box-18,
+.v-box-19,
+.v-box-20,
+.v-box-21,
+.v-box-22,
+.v-box-23,
+.v-box-24,
+.v-box-25,
+.v-box-26,
+.v-box-27,
+.v-box-28{
+    padding: 50px 0;
+}
+
+
+
+.timeline-vertical{
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 760px;
+    display: grid;
+    background-color: white;
+    align-items: center;
+    grid-template-columns: 15% 20% repeat(2, 1fr);
+    grid-template-rows: repeat(1fr, 14);
+    grid-template-areas: 
+        "v-box-1  v-box-2  v-box-29 v-box-29"
+        "v-box-3  v-box-4  v-box-29 v-box-29"
+        "v-box-5  v-box-6  v-box-30 v-box-30"
+        "v-box-7  v-box-8  v-box-30 v-box-30"
+        "v-box-9  v-box-10 v-box-31 v-box-31"
+        "v-box-11 v-box-12 v-box-31 v-box-31"
+        "v-box-13 v-box-14 v-box-32 v-box-32"
+        "v-box-15 v-box-16 v-box-32 v-box-32"
+        "v-box-17 v-box-18 v-box-33 v-box-33"
+        "v-box-19 v-box-20 v-box-33 v-box-33"
+        "v-box-21 v-box-22 v-box-34 v-box-34"
+        "v-box-23 v-box-24 v-box-34 v-box-34"
+        "v-box-25 v-box-26 v-box-35 v-box-35"
+        "v-box-27 v-box-28 v-box-35 v-box-35";
+}
+
+.timeline-vertical p{
+    font-size: 14px;
+}
+
+.timeline-vertical h2{
+    font-size: 1em;
+}
+
+.v-box-1{
+    grid-area: v-box-1;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-2{
+    grid-area: v-box-2;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-3{
+    grid-area: v-box-3;
+}
+
+.v-box-4{
+    grid-area: v-box-4;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-5{
+    grid-area: v-box-5;  
+    border-bottom: $timelineBorder;
+}
+
+.v-box-6{
+    grid-area: v-box-6;
+    border-left: $timelineBorderThick;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-7{
+   grid-area: v-box-7;
+}
+
+.v-box-8{
+    grid-area: v-box-8;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-9{
+    grid-area: v-box-9;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-10{
+    grid-area: v-box-10;
+    border-left: $timelineBorderThick;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-11{
+    grid-area: v-box-11;
+}
+
+.v-box-12{
+    grid-area: v-box-12;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-13{
+    grid-area: v-box-13;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-14{
+    grid-area: v-box-14;
+    border-bottom: $timelineBorder;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-15{
+    grid-area: v-box-15;
+}
+
+.v-box-16{
+    grid-area: v-box-16;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-17{
+    grid-area: v-box-17;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-18{
+    grid-area: v-box-18;
+    border-bottom: $timelineBorder;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-19{
+    grid-area: v-box-19;
+}
+
+.v-box-20{
+    grid-area: v-box-20;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-21{
+    grid-area: v-box-21;
+    border-bottom: $timelineBorder;
+
+}
+
+.v-box-22{
+    grid-area: v-box-22;
+    border-left: $timelineBorderThick;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-23{
+    grid-area: v-box-23;
+}
+
+.v-box-24{
+    grid-area: v-box-24;
+    border-left: $timelineBorderThick;
+}
+
+.v-box-25{
+    grid-area: v-box-25;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-26{
+    grid-area: v-box-26;
+    border-left: $timelineBorderThick;
+    border-bottom: $timelineBorder;
+}
+
+.v-box-27{
+    grid-area: v-box-27;
+}
+
+.v-box-28{
+    grid-area: v-box-28;
+}
+
+.v-box-29{
+    grid-area: v-box-29;
+    padding: 50px 20px;
+}
+
+.v-box-30{
+    grid-area: v-box-30;
+    padding:  50px 20px;
+}
+
+.v-box-31{
+    grid-area: v-box-31;
+    padding: 50px 20px;
+}
+
+.v-box-32{
+    grid-area: v-box-32;
+    padding: 50px 20px;
+}
+
+.v-box-33{
+    grid-area: v-box-33;
+    padding: 50px 20px;
+}
+
+.v-box-34{
+    grid-area: v-box-34;
+    padding: 50px 20px;
+}
+
+.v-box-35{
+    grid-area: v-box-35;
+    padding: 50px 20px;
+}

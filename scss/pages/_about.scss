@@ -1,0 +1,9 @@
+// About Page Styles
+
+.about-wrapper{
+    background-image: url(../../images/ice-cream-about.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1920px;
+    @include wrapper;
+}
+

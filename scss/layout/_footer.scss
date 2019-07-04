@@ -1,0 +1,32 @@
+// Footer Styles
+
+footer{
+    background-color: $mainColor;
+}
+
+
+footer ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+footer li{
+    display: block;
+    color: $lightText;
+    padding: 0 20px;
+    line-height: 60px;
+}
+
+footer a{
+    color: $lightText;
+    border-bottom: 2px solid transparent;
+}
+
+footer a:hover,
+footer a:active{
+    border-bottom: 2px solid white;
+}

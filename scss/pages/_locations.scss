@@ -1,0 +1,50 @@
+// Locations Styles
+
+
+
+.locations-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+
+
+
+
+.locations{
+    margin: 20px auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $mainColor;
+    background-color: rgba(217, 100, 89, 0.274);
+}
+
+.locations section{
+    background-color: white;
+    border: 2px solid $mainColor;
+    padding: 10px;
+}
+
+.kitsilano,
+.mount-pleasant{
+    margin: 20px 20px 0
+}
+
+.downtown{
+    margin: 20px 20px 20px;
+}
+
+.locations h3{
+    @include h3;
+    margin: 10px;
+}
+
+.locations p{
+    @include p;
+    margin: 10px;
+}
+
+

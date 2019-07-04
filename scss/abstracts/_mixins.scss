@@ -1,0 +1,19 @@
+// Mixins
+
+@mixin wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+// Font Mixins 
+
+@mixin h3{
+    color: $mainColor;
+    font-size: 16px;
+}
+
+@mixin p {
+    color: black;
+    font-size: 14px;
+}

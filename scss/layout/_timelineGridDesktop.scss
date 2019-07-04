@@ -1,4 +1,5 @@
 
+// Timeline - Desktop
 
 .box-1,
 .box-2,
@@ -33,23 +34,47 @@
 .box-31,
 .box-32,
 .box-33{
-    padding: 100px 100px 75px 100px;
-    background-color: pink;
-    font-size: 1em;
     text-align: center;
 }
 
 
 
 .timeline-horizontal{
+    margin: 0 auto;
+    width: 1150px;
+    background-color: white;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 0 repeat(8, 1fr) 0;
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
         "box-1  box-2  box-3  box-3   box-4  box-4  box-5  box-5  box-6  box-7"
         "box-8  box-9  box-10  box-11 box-12 box-13 box-14 box-15 box-16 box-17"
         "box-18 box-19 box-20  box-21 box-22 box-23 box-24 box-25 box-26 box-27"
-        "box-28 box-28 box-29  box-30 box-30 box-31 box-31 box-32 box-33 box-33"
+        "box-28 box-29 box-29  box-30 box-30 box-31 box-31 box-32 box-32 box-33";
+}
+
+.timeline-horizontal p{
+    font-size: 14px;
+}
+
+.timeline-horizontal h2{
+    font-size: 1em;
+}
+
+
+.box-3,
+.box-4,
+.box-5{
+    padding: 50px 25px 30px;
+    align-self: end;
+}
+
+.box-29,
+.box-30,
+.box-31,
+.box-32{
+    padding: 30px 25px 50px;
+    align-self: start;
 }
 
 
@@ -70,81 +95,79 @@
 }
 
 .box-9{
-    border-left: 3px solid purple;
-    border-bottom: 3px solid purple;
+    grid-area: box-9;
 }
 
 .box-10{
-    border-right: 3px solid purple;
-    border-bottom: 3px solid purple;
+    border-right: $timelineBorder;
+    border-bottom: $timelineBorder;
 }
 
 .box-11{
-    border-bottom: 3px solid purple;
+    border-bottom: $timelineBorder;
 }
 
 .box-12{
-    border-bottom: 3px solid purple;
-    border-right: 3px solid purple;
+    border-bottom: $timelineBorder;
+    border-right: $timelineBorder;
 }
 
 .box-13{
-    border-bottom: 3px solid purple;
+    border-bottom: $timelineBorder;
 }
 
 .box-14{
-    border-bottom: 3px solid purple;
-    border-right: 3px solid purple;
+    border-bottom: $timelineBorder;
+    border-right: $timelineBorder;
 }
 
 .box-15{
-    border-bottom: 3px solid purple;
+    border-bottom: $timelineBorder;
 }
 
 .box-16{
-    border-bottom: 3px solid purple;
-    border-right: 3px solid purple;
+    grid-area: box-16;
+
 }
 
 .box-19{
-    border-top: 3px solid purple;
-    border-left: 3px solid purple;
+    grid-area: box-19;
 }
 
 .box-20{
-    border-top: 3px solid purple;
+    border-top: $timelineBorder;
+    border-left: $timelineBorder;
 }
 
 .box-21{
-    border-top: 3px solid purple;
-    border-right: 3px solid purple;
+    border-top: $timelineBorder;
+    border-right: $timelineBorder;
 }
 
 .box-22{
     grid-area: box-22;
-    border-top: 3px solid purple;
+    border-top: $timelineBorder;
 }
 
 .box-23{
     grid-area: box-23;
-    border-top: 3px solid purple;
-    border-right: 3px solid purple;
+    border-top: $timelineBorder;
+    border-right: $timelineBorder;
 }
 
 .box-24{
     grid-area: box-24;
-    border-top: 3px solid purple;
+    border-top: $timelineBorder;
 }
 
 .box-25{
     grid-area: box-25;
-    border-top: 3px solid purple;
+    border-top: $timelineBorder;
+    border-right: $timelineBorder;
 }
 
 .box-26{
     grid-area: box-26;
-    border-top: 3px solid purple;
-    border-right: 3px solid purple;
 }
 
 .box-27{
@@ -174,3 +197,7 @@
 .box-33{
     grid-area: box-33;
 }
+
+
+
+
