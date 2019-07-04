@@ -70,8 +70,8 @@ main {
     padding-top: 250px;
 }
 
-// --------------------------- Responsive NAV 1050px --------------------------//
-@media only screen and (max-width: 1200px) {
+// --------------------------- Responsive NAV 1000px --------------------------//
+@media only screen and (max-width: 1000px) {
 
     .inner-header ul {
         flex-direction: column;
@@ -84,12 +84,13 @@ main {
 
     header h1 {
         visibility: visible;
+        width: 20vw;
+        font-size: 1.25em;
     }
 
     .inner-header li {
         background-color: $lightText;
         max-width: 240px;
-        display: block;
     }
 
     #nav-button {
@@ -100,5 +101,12 @@ main {
         background-color: $lightText;
         border: none;
         outline: none;
+    }
+
+    .logo img {
+        max-width: 150px;
+        max-height: 150px;
+        margin-top: -25px;
+        padding-left: 20px;
     }
 }
